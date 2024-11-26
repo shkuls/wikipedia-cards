@@ -78,6 +78,7 @@ function Cards () {
               ref={childRefs[index]}
               className='absolute bg-white rounded-lg text-black border h-80 w-[30%] m-10'
               key={index}
+              preventSwipe={["down"]}
               onSwipe={(dir) => swiped(dir, character.name, index)}
               onCardLeftScreen={() => outOfFrame(character.name, index)}
             >

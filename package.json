@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@huggingface/transformers": "^3.0.2",
     "@react-spring/web": "^9.5.5",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
